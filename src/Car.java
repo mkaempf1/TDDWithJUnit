@@ -44,5 +44,14 @@ public class Car {
 	public String toString(){
 		return("Color: Red, Speed: 0");
 	}
+  
+  public void decelerate(int amount) {
+		int limit = this.maxSpeed + this.speed;
+		if(amount >= limit){
+		  this.speed = limit;
+		}else{
+		  this.speed+= amount;
+		}
+	}
 
 }
