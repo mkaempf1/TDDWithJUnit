@@ -25,7 +25,7 @@ public class Car {
 	
 	/**
 	 * Accelerates the car up to the maximum amount
-	 * set in the object constructor.
+	 * set in the object constructor. 
 	 * @param amount	The amount the car will accelerate
 	 */
 	public void accelerate(int amount){
